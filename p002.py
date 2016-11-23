@@ -1,4 +1,4 @@
-from common_functions import fibonacci_val
+from lib import fibonacci_val
 
 
 def run():

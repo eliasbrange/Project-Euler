@@ -1,8 +1,8 @@
-from common_functions import get_unique_prime_factors
+from lib import get_primes_below_n
 
 
 def run():
-    output = max(list(get_unique_prime_factors(600851475143)))
+    output = sum(get_primes_below_n(2000000))
     print_output(output)
 
 

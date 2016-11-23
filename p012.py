@@ -1,4 +1,4 @@
-from common_functions import get_factors
+from lib import get_factors
 
 
 def run():

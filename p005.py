@@ -2,7 +2,7 @@ from collections import Counter
 from functools import reduce
 from operator import mul
 
-from common_functions import get_prime_factors
+from lib import get_prime_factors
 
 
 def run():

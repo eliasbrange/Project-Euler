@@ -1,4 +1,4 @@
-from common_functions import is_prime
+from lib import is_prime
 
 
 def run():
