@@ -2,8 +2,7 @@ from lib import is_prime
 
 
 def run():
-    print(get_prime_n(10001))
-    output = 1
+    output = get_prime_n(10001)
     print_output(output)
 
 

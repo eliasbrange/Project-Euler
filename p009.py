@@ -6,7 +6,8 @@ def run():
                 for a in range(1, b)
                 if a ** 2 + b ** 2 == (target_sum - (a + b)) ** 2]
 
-    output = triplets
+    output = triplets[0]
+    output = output[0] * output[1] * output[2]
     print_output(output)
 
 
