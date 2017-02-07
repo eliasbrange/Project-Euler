@@ -1,5 +1,7 @@
 from lib import get_unique_prime_factors
 
+PROBLEM_NAME = 'Largest prime factor'
+
 
 def run():
     output = max(list(get_unique_prime_factors(600851475143)))
@@ -7,6 +9,7 @@ def run():
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

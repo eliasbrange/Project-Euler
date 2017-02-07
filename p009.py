@@ -1,3 +1,6 @@
+PROBLEM_NAME = 'Special Pythagorean triplet'
+
+
 def run():
     target_sum = 1000
 
@@ -12,6 +15,7 @@ def run():
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

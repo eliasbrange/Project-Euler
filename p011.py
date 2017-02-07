@@ -1,6 +1,8 @@
 from functools import reduce
 from operator import mul
 
+PROBLEM_NAME = 'Largest product in a grid'
+
 
 def get_grid():
     grid = []
@@ -60,6 +62,7 @@ def run():
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

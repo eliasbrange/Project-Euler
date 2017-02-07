@@ -4,6 +4,8 @@ from operator import mul
 
 from lib import get_prime_factors
 
+PROBLEM_NAME = 'Smallest multiple'
+
 
 def run():
     output = reduce(mul, generate_factors(20))
@@ -20,6 +22,7 @@ def generate_factors(n):
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

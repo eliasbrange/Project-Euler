@@ -1,5 +1,7 @@
 from lib import is_prime
 
+PROBLEM_NAME = '10001st prime'
+
 
 def run():
     output = get_prime_n(10001)
@@ -17,6 +19,7 @@ def get_prime_n(n):
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

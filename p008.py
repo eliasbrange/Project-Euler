@@ -1,6 +1,8 @@
 from functools import reduce
 from operator import mul
 
+PROBLEM_NAME = 'Largest product in a series'
+
 
 def run():
     number = ("73167176531330624919225119674426574742355349194934"
@@ -34,6 +36,7 @@ def run():
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

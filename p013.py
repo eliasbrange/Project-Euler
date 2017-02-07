@@ -1,3 +1,6 @@
+PROBLEM_NAME = 'Large sum'
+
+
 def get_numbers():
     numbers = []
     numbers.append("37107287533902102798797998220837590246510135740250")
@@ -114,6 +117,7 @@ def run():
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

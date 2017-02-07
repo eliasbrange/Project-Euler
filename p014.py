@@ -1,5 +1,6 @@
-pre_computed = {}
-pre_computed[1] = 0
+PROBLEM_NAME = 'Longest Collatz sequence'
+PRE_COMPUTED = {}
+PRE_COMPUTED[1] = 0
 
 
 def run():
@@ -9,8 +10,8 @@ def run():
 
 
 def compute(n, count):
-    if n in pre_computed.keys():
-        return pre_computed[n]
+    if n in PRE_COMPUTED.keys():
+        return PRE_COMPUTED[n]
 
     k = n
 
@@ -19,11 +20,12 @@ def compute(n, count):
     else:
         k = 3 * k + 1
 
-    pre_computed[n] = count + compute(k, 1)
-    return pre_computed[n]
+    PRE_COMPUTED[n] = count + compute(k, 1)
+    return PRE_COMPUTED[n]
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

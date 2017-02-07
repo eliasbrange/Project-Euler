@@ -1,3 +1,6 @@
+PROBLEM_NAME = 'Sum square difference'
+
+
 def run():
     n = 100
     output = square_sum(n) - sum_squares(n)
@@ -13,6 +16,7 @@ def sum_squares(n):
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

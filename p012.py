@@ -1,5 +1,7 @@
 from lib import get_factors
 
+PROBLEM_NAME = 'Highly divisable triangular number'
+
 
 def run():
     i = 1
@@ -15,6 +17,7 @@ def triangle_number(n):
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 

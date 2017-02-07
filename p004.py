@@ -1,3 +1,6 @@
+PROBLEM_NAME = 'Largest palindrome product'
+
+
 def run():
     output = max([a * b
                   for a in range(101, 1000)
@@ -12,6 +15,7 @@ def is_palindrome(n):
 
 
 def print_output(output):
+    print("Problem: " + PROBLEM_NAME)
     print("Output: " + str(output) + "\n")
 
 
