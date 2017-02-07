@@ -80,4 +80,4 @@ def n_over_k(n, k):
 
 
 def factorial(n):
-    return reduce(mul, range(1,n + 1))
+    return reduce(mul, range(1, n + 1))
